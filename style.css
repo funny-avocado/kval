@@ -1,0 +1,1048 @@
+html{
+height:100%;
+}
+body {
+	margin:0px;
+	display:flex;
+	height:100%;
+	flex-direction:column;
+
+
+	min-height: 100%;
+	margin-bottom: -80px;
+	display: grid;
+grid-template-rows: auto 1fr auto;
+}
+
+.footer {
+	height: 80px;
+}
+
+a {
+  			
+    	text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    	color: #000;
+	}
+
+h1, h2, h3 { margin:0;
+}
+nav{
+	margin-right:100pt ;
+	margin-left: 100pt;
+	margin-top: 15pt;
+}
+
+/*рамка в футере*/
+.wrapper {
+
+	width: 1440px;
+	/*border: 1px solid red;*/
+}
+/*шапка*/
+	header {
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-family:Segoe Script ;
+		font-size:18pt ;
+		padding-left: 10px;
+		padding-right: 20px;
+		background-color:#fff;
+
+}
+/*логотип*/
+.logo {
+	display: flex;
+}
+
+
+
+
+
+/*розовый мазок(аниме)*/
+.smear_pink_anime{
+	position: absolute;
+	top: -64px;
+
+  	height:200px;
+	width:200px;
+	right: 1374px;
+
+    z-index: 2;
+}
+
+
+/*зелёный мазок(манга)*/
+.smear_green_manga{
+	position: absolute;
+	top: -64px;
+
+  	height:200px;
+	width:200px;
+	right: 1008px;
+
+    z-index: 2;
+}
+
+
+.smear_green_chat{
+position: absolute;
+	top: -64px;
+
+  	height:200px;
+	width:200px;
+	right: 666px;
+
+    z-index: 2;
+}
+
+
+
+/*настрока аниме*/
+.header_nav_a1 {
+	position: relative;
+	font-family:FANTASY;
+	font-weight: bold;
+	font-size:24pt ;
+	text-decoration: none;
+	color: black;
+	padding-left: 70px;
+	padding-right: 180px;
+	margin-left: 5px;
+	margin-right: 5px;
+	right: 50px;
+	bottom: 10px;
+
+z-index: 3;
+	
+}
+
+/*манга*/
+.header_nav_a2 {
+	position: relative;
+	font-family:FANTASY;
+	font-weight: bold;
+	font-size:24pt ;
+	text-decoration: none;
+	color: black;
+	padding-left: 70px;
+	padding-right: 180px;
+	margin-left: 5px;
+	margin-right: 5px;
+	right: 50px;
+	bottom: 10px;
+z-index: 3;
+	
+}
+
+/*чат*/
+.header_nav_a3 {
+	position: relative;
+	font-family:FANTASY;
+	font-weight: bold;
+	font-size:24pt ;
+	text-decoration: none;
+	color: black;
+	padding-left: 70px;
+	padding-right: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+	right: 50px;
+	bottom: 10px;
+z-index: 3;
+	
+}
+/*контент*/
+	content {
+		display: flex;
+		justify-content: center;
+
+}
+
+.user_name{
+	font-family:Courier New;
+	font-size:16pt ;
+	pading-left: 50px;
+	margin: 5px;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* текст вне контейнеров (страница регисстрации) */
+.container {
+  padding-top: 57px;
+  text-align: center;
+
+  font-family:Courier New;
+	font-size:16pt ;
+
+	z-index: 1;
+}
+
+/* настройка блоков и шрифта на странице регистрации (ввод данных) */
+input[type=text], input[type=password] {
+  width: 1400;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #a5c9c9;
+  border-radius: 40px;
+
+  text-align: center;
+  font-family:Courier New;
+	font-size:14pt ;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+
+}
+/*слово регистрация (вверху страницы)(на странице регистрации)*/
+.vouti{
+	font-family:Courier New;
+	font-size:24pt ;
+}
+
+/* редактирование кнопки регистрация */
+.registerbtn {
+  background-color: #e4b1af;
+  color: #000;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius: 40px;
+
+  font-family:Courier New;
+	font-size:18pt ;
+	z-index: 5;
+
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/*слова после регистрации и входа*/
+.container_signin{
+	bottom: 825px;
+	position: relative;
+}
+
+/*уже есть акк (на страце регистрации)*/
+.yze_akk{
+	font-family:Courier New;
+	font-size:16pt ;
+	z-index: 3;
+	margin-top: 900px;
+	text-align: center;
+}
+
+/*слова ещё нет акк (на странице регистрации)*/
+.esho_net{
+	font-family:Courier New;
+	font-size:16pt ;
+	z-index: 3;
+	margin-top: 873px;
+	text-align: center;
+}
+
+/*слово Вход на странице вход (именно верхнее слово)*/
+.vxod_text{
+	font-family: Courier New;
+    font-size: 35pt;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/*настройка блона на странице пользователя (где ник и регичтрация)*/
+.kvadrat{
+	display: block;
+	flex-direction: column;
+	width: 1330px;
+	height:530px;
+	border: 1px ;
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 0px;
+   /*border: 1px solid red;*/
+   background: #ffc2bb;
+   border-radius: 30px;
+}
+
+/*рамка у товаров*/
+.content_a {
+	display: block;
+	flex-direction: column;
+	width: 400px;
+	height:590px;
+	border: 1px ;
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 5;
+}
+/*последние анимехи*/
+.content_aa{
+	display: block;
+	flex-direction: column;
+	width: 400px;
+	height:590px;
+	border: 1px ;
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: 60px;
+    position: relative;
+
+}
+
+/*рамка у фотографии на странице рыбки поньо на утёсе*/
+.content_ab {
+	display: block;
+	flex-direction: column;
+	width: 400px;
+	height:590px;
+	border: 1px ;
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 490px;
+}
+
+
+/*настройка размера фоток товара*/
+.content_photo {
+	border-radius: 10px;
+	height:480px;
+	width:340px;
+	margin: 38px;
+	position: relative;
+ 	z-index: 4;
+ 	display: center;
+}
+
+/*редактирование фотки у манги(демон)*/
+.content_photo_demon{
+	border-radius: 10px;
+	height:480px;
+	width:340px;
+	margin: 38px;
+	position: relative;
+ 	z-index: 1;
+ 	display: center;
+ 	left: 390px;
+}
+
+/*главы у манги(рамка)*/
+.content_glava{
+	display: block;
+	flex-direction: column;
+	width: 1000px;
+	height:67px;
+	border: 1px ;
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 8px;
+    background: #7fd3fc;
+}
+
+/*переход на главу*/
+.content_glava_pereuti{
+	display: block;
+	flex-direction: column;
+	position: absolute;
+	width: 370px;
+	height:67px;
+	border: 1px ;
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: 10px;
+    left: 520px;
+    background: #7fd3fc;
+	/*border: 1px solid red;*/
+	top: 586px;
+}
+
+
+/*редактирование фотографии манги*/
+.content_photo_manga{
+	border-radius: 10px;
+	height:480px;
+	width:340px;
+	margin: 38px;
+	position: relative;
+ 	z-index: 1;
+ 	display: center;
+ 	left: 380px;
+}
+/*тень под шапкой*/
+.ten{
+	position: absolute;
+	height:30px;
+	width:1900px;
+	border-radius: 0px 0px 1000px 1000px;
+	z-index: 1;
+
+}
+
+/*убираем мазок где название аниме на задний план*/
+.smear_video{
+	height:300px;
+	width:440px;
+
+	margin-top: -270px;
+	position: relative;
+ 	z-index: 3;
+ 	display: center;
+}
+
+
+/*мазок у видео на странице рыбка поньо на утёсе*/
+.smear_video55{
+	position: absolute;
+  	right: 578px;
+
+  	top: 850px;
+  	z-index: 0;
+
+  	height:600px;
+	width:1200px;
+    margin-bottom: 10px;
+}
+
+/*красный мазок (старница поньо на утёсе (за фото))*/
+.smear_video13{
+	position: absolute;
+  	right: 1420px;
+
+  	top: 75px;
+  	z-index: 0;
+
+  	height:620px;
+	width:520px;
+    margin-bottom: 10px;
+}
+
+/*мазок на странице пользователя(где ник)*/
+.orange{
+	position: absolute;
+  	right: 460px;
+
+  	top: -50px;
+  	z-index: 0;
+
+  	height:620px;
+	width:520px;
+    margin-bottom: 10px;
+}
+
+/*мазок на странице регистрации (где регистрация)*/
+.orange1{
+	position: absolute;
+  	right: 775px;
+
+  	top: -150px;
+  	z-index: 0;
+
+  	height:800px;
+	width:700px;
+    margin-bottom: 10px;
+}
+
+/*мазок на странице регистрации (где вход)*/
+.orange2{
+	position: absolute;
+  	right:750px;
+
+  	top: -150px;
+  	z-index: 0;
+
+  	height:800px;
+	width:700px;
+    margin-bottom: 10px;
+}
+
+/*редактирование фотографии от маги (Том 1 Глава 1)*/
+.lagd_01{
+	position: absolute;
+  	right: 596px;
+
+  	top: 75px;
+  	z-index: 0;
+
+  	height:16854px;
+	width:1200px;
+    margin-bottom: 10px;
+    z-index: 0;
+}
+
+
+/*названия аниме*/
+p{
+	
+	
+	z-index: 1;
+  
+	
+}
+
+/*некоторая поправка атрибута р (на страницк аниме и манка немного сдвигает текст и ставит его впереди)*/
+.name{
+	font-family:Courier New;
+	font-size:18pt ;
+	margin-top: -10px;
+	position: relative;
+    left: 20;
+    z-index: 4;
+
+
+}
+
+/*настройка слова "Том 1 Глава 1"*/
+.name1{
+	font-family:Courier New ;
+	font-size:18pt ;
+	margin-top: 5px;
+	position: relative;
+    left: 20;
+}
+.name12{
+	font-family:Courier New ;
+	font-size:25pt ;
+	margin-top: 20px;
+	position: relative;
+}
+
+
+
+
+/*название аниме рыбка поньо на утёсе (на странице рыбки поньо на утёсе)*/
+.text_name{
+	position: absolute;
+	top: 130px;
+	right: 750px;
+
+	font-family:Courier New ;
+	font-size:28pt ;
+}
+/*название манги Любовный совет от великого герцога из Ада (на странице для просмотрела манги)*/
+.text_name_demon{
+	position: absolute;
+	top: 130px;
+	right: 280px;
+
+	font-family:Courier New ;
+	font-size:28pt ;
+}
+
+/*ник(расположение и шрифт)*/
+.nick{
+	position: absolute;
+	top: 125px;
+	width: 1730;
+text-align: center;
+	font-family:Courier New ;
+	font-size:32pt ;
+}
+
+/*именно слова регистрации*/
+.reg{
+	position: absolute;
+	top: 215px;
+	right: 890px;
+
+	font-family:Courier New ;
+	font-size:28pt ;
+}
+
+/*дата регистрации*/
+.reg_data{
+	position: absolute;
+	top: 215px;
+	right: 630px;
+
+	font-family:Courier New ;
+	font-size:28pt ;
+}
+
+/*режисёр(на странице рыбки поньо)*/
+.rejisor{
+	position: absolute;
+	top: 190px;
+	right: 1240px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+}
+
+/*режисёр(ФИО)(на странице рыбки поньо)*/
+.rejisor1{
+	position: absolute;
+	top: 190px;
+	right: 986px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+}
+
+/*Автор(ФИО)(на странице просмотр манги)*/
+.rejisor12{
+	position: absolute;
+	top: 190px;
+	right: 1103px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+}
+
+/*страна(на странице рыбки поньо)*/
+.strana{
+	position: absolute;
+	top: 230px;
+	right: 1240px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+}
+
+/*странна (название)*/
+.strana1{
+	position: absolute;
+	top: 230px;
+	right: 1100px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+}
+
+/*тип (название)(на странице просмотр манги)*/
+.strana12{
+	position: absolute;
+	top: 230px;
+	right: 957px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+}
+
+/*год выпуска*/
+.yea{
+	position: absolute;
+	top: 270px;
+	right: 1240px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+}
+
+/*год выпуска (цифры)*/
+.yea1{
+	position: absolute;
+	top: 270px;
+	right: 1130px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+}
+
+/*жанр*/
+.janr{
+	position: absolute;
+	top: 324px;
+	right: 1240px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+}
+
+
+/*жанр сами жанры*/
+.janr1{
+	position: absolute;
+	top: -1155px;
+	left: 345px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+
+	display: block;
+	flex-direction: column;
+	width: 700px;
+	border: 1px ;
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: -300px;
+    position: relative;
+}
+
+/*жанр у манги(текст)*/
+.janr2{
+	position: absolute;
+	top:235px;
+	left: 120px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+
+	display: block;
+	flex-direction: column;
+	width: 700px;
+	border: 1px ;
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: -300px;
+    position: relative;
+
+}
+
+/*описание аниме*/
+.opicanie{
+	position: absolute;
+	top: 391px;
+	right: 1240px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+}
+
+/*описание манги*/
+.opicanie12a{
+	position: absolute;
+	top: 467px;
+	right: 1240px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+}
+
+/*описание аниме(текст описания)*/
+.opicanie1{
+	position: absolute;
+	top: -1088px;
+	left: 345px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+
+
+	display: block;
+	flex-direction: column;
+	width: 700px;
+	border: 1px ;
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: -300px;
+    position: relative;
+}
+
+/*описание манги (текст описания)*/
+.opicanie12{
+	position: absolute;
+	top: -240px;
+	left: 340px;
+
+	font-family:Courier New ;
+	font-size:20pt ;
+
+
+	display: block;
+	flex-direction: column;
+	width: 700px;
+	border: 1px ;
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: -300px;
+    position: relative;
+
+}
+
+
+
+
+
+/*фотки с товаром*/
+.content {
+	display: flex;
+	
+	justify-content: center;
+		flex-wrap: wrap;
+		background-color: #ffefe6;
+/*рамка контента(где находится контент)*/
+		width: 1440px;
+}
+
+/*контент на странице чтения манги*/
+.content1{
+	display: flex;
+	
+	justify-content: center;
+		flex-wrap: wrap;
+		background-color: #353a50;
+/*рамка контента(где находится контент)*/
+		width: 1440px;
+		height: 16854px;
+}
+
+/*контент на странице чтения манги(когда нет главы)*/
+.content12{
+	display: flex;
+	
+	justify-content: center;
+		flex-wrap: wrap;
+		background-color: #353a50;
+/*рамка контента(где находится контент)*/
+		width: 1440px;
+		height: 718px;
+}
+
+/*контент на странице регистрации*/
+.content2{
+	display: flex;
+	
+	justify-content: center;
+		flex-wrap: wrap;
+		background-color: #ffefe6;
+/*рамка контента(где находится контент)*/
+		width: 1440px;
+		height: 973px;
+}
+
+/*контент на странице входа*/
+.content3{
+	display: flex;
+	
+	justify-content: center;
+		flex-wrap: wrap;
+		background-color: #ffefe6;
+/*рамка контента(где находится контент)*/
+		width: 1440px;
+		height: 973px;
+
+}
+
+/*настройка фото пользователя на странице пользователя*/
+.content_user{
+	border-radius: 10px;
+	height:480px;
+	margin: 38px;
+	position: relative;
+ 	z-index: 1;
+ 	display: center;
+ 	left: -3px;
+}
+
+/*настройка фотографии безликого (когда манга ещё не вышла)*/
+.faceless{
+	border-radius: 10px;
+	height:480px;
+	margin: 38px;
+	position: relative;
+ 	z-index: 1;
+ 	display: center;
+ 	left: -3px;
+}
+
+
+/*настройка высоты менюшки*/
+.content_text {
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+
+
+/*настройка размера фоток товара*/
+.content_img {
+	height:500px;
+	margin: 8px;
+}
+/*настройка логотипа(фото)*/
+.content_imglogo {
+	height:80px;
+	padding-left:5px;
+ }
+
+
+
+
+ /*настрока фотки пользователь*/
+.content_imguser {
+	height:60px;
+	float:left;
+	padding-left:170px;
+	right: 42px;
+ }
+
+
+/*настройка размера видео рыбки поньо*/
+ .video{
+	height:543px;
+	width:1001px;
+	margin-bottom: 200px;
+	margin-top: 30px;
+	z-index: 1;
+
+	border-radius: 50px;
+ }
+
+/*кноака на следущую главу*/
+.fixedbut {
+	position: fixed;
+	bottom: 500px;
+	right: 10px;
+	display: block;
+	background: #ffefe6;
+	color: #000;
+	text-decoration: none;
+	padding: 6px 23px;
+	font-size: 17px;
+	font-family:Courier New ;
+	font-size:20pt ;
+	border-radius: 10px;
+}
+
+.fixedbut2 {
+	position: fixed;
+	bottom: 500px;
+	left: 10px;
+	display: block;
+	background: #ffefe6;
+	color: #000;
+	text-decoration: none;
+	padding: 6px 23px;
+	font-size: 17px;
+	font-family:Courier New ;
+	font-size:20pt ;
+	border-radius: 10px;
+}
+
+.fixedbut:hover { background: #222; }
+
+
+/*футер*/
+	footer {
+		display: flex;
+		justify-content: center;
+		font-family:Garamond ;
+		font-size:18pt ;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color:#c8c8c8;
+		z-index: 2;
+
+}
+/*настройка футера*/
+.footer {
+	display: flex;
+	justify-content: center;
+
+}
+/*настрока фотки инстаграмм*/
+.content_img2 {
+	height:50px;
+	float:left;
+ 	padding-right:1px;
+ 	padding-bottom:1px;
+ 	padding-top:12px ;
+
+	float:right;
+	padding-left:5px;
+}
+
+/*натсройка фотки вконтакте*/
+.content_img3 {
+	height:50px;
+	float:left;
+	padding-right:1px;
+	padding-bottom:10px;
+	padding-top:12px;
+
+	float:right;
+	padding-left:25px;
+}
+
+
+/*настрока фотки фейсбук*/
+.content_img4 {
+	height:50px;
+	left: 1200px;
+
+	padding-left:5px;
+}
+/*натсрока фотки пинтерест*/
+.content_img5 {
+	height:50px;
+	float:right;
+	padding-bottom:1px;
+	padding-top:1px;
+
+	float:left;
+	padding-left:1px;
+}
+
+/*настройка менюшки (только слово Одежда)(карта сайта)*/
+.content_text1_h2 {
+	color: black;
+	font-family: Garamond;
+	font-size: 50pt;
+	margin-top:90pt ;
+	float:right;
+	padding-left:750px;
+
+}
+/*настрока карт сайта*/
+.content_text2_h3 {
+	color: black;
+	font-family: Garamond;
+	font-size: 30pt;
+	float:right;
+	padding-left:800px;
+
+}
+/*вроде рамка*/
+.content_b{
+	color: black;
+	font-family: Garamond;
+	font-size: 30pt;
+	float:right;
+	padding-left:550px;
+
+	display: flex;
+	flex-direction: column;
+	width: 1450px;
+
+}
+
+
+
+
